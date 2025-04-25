@@ -18,15 +18,23 @@ A beautiful, dark and light colorscheme for Helix, inspired by the default Neovi
 
 ## Installation
 
-### Manual Installation
-1. Clone the repository to your Helix configuration directory:
-   ```bash
-   git clone https://github.com/strash/kinda_nvim.hx.git ~/.config/helix/themes/kinda_nvim
-   ```
-2. The themes will be automatically detected by Helix and available as `kinda_nvim` and `kinda_nvim_light`.
+1. Download the theme files:
+  - kinda_nvim.toml
+  - kinda_nvim_light.toml
+2. Place the downloaded files in your Helix themes directory:
+```bash
+mkdir -p ~/.config/helix/themes
+mv <path/to>/kinda_nvim.toml ~/.config/helix/themes/kinda_nvim.toml
+mv <path/to>/kinda_nvim_light.toml ~/.config/helix/themes/kinda_nvim_light.toml
+```
 
-### Using a Package Manager (e.g., Nix or Homebrew)
-If you’re using a package manager, you can add the theme to your Helix configuration. Refer to your package manager’s documentation for details.
+Alternatively, you can clone the repository and copy the files:
+
+```bash
+git clone https://github.com/strash/kinda_nvim.hx.git
+cp kinda_nvim.hx/kinda_nvim.toml ~/.config/helix/themes/kinda_nvim.toml
+cp kinda_nvim.hx/kinda_nvim_light.toml ~/.config/helix/themes/kinda_nvim_light.toml
+```
 
 ## Usage
 
