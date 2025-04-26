@@ -10,10 +10,10 @@ A beautiful, dark and light colorscheme for Helix, inspired by the default Neovi
 
 ## Screenshots
 
-### Dark Theme (`kinda_nvim`)
+### Dark Theme `kinda_nvim`
 <img width="800" alt="Dark Theme" src="https://github.com/user-attachments/assets/275bd258-8940-4d0f-a4d5-70736e7cc63d" />
 
-### Light Theme (`kinda_nvim_light`)
+### Light Theme `kinda_nvim_light`
 <img width="800" alt="Light Theme" src="https://github.com/user-attachments/assets/eafff380-9da0-4d08-b9a2-2de2573aca19" />
 
 ## Installation
